@@ -1,0 +1,117 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'kol.ui'
+#
+# Created by: PyQt5 UI code generator 5.13.2
+#
+# WARNING! All changes made in this file will be lost!
+
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(828, 589)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.label_4 = QtWidgets.QLabel(self.centralwidget)
+        self.label_4.setGeometry(QtCore.QRect(670, 21, 16, 16))
+        self.label_4.setObjectName("label_4")
+        self.widget = QtWidgets.QWidget(self.centralwidget)
+        self.widget.setGeometry(QtCore.QRect(10, 20, 107, 94))
+        self.widget.setObjectName("widget")
+        self.verticalLayout = QtWidgets.QVBoxLayout(self.widget)
+        self.verticalLayout.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.radioButton = QtWidgets.QRadioButton(self.widget)
+        self.radioButton.setObjectName("radioButton")
+        self.verticalLayout.addWidget(self.radioButton)
+        self.radioButton_2 = QtWidgets.QRadioButton(self.widget)
+        self.radioButton_2.setObjectName("radioButton_2")
+        self.verticalLayout.addWidget(self.radioButton_2)
+        self.radioButton_3 = QtWidgets.QRadioButton(self.widget)
+        self.radioButton_3.setChecked(True)
+        self.radioButton_3.setObjectName("radioButton_3")
+        self.verticalLayout.addWidget(self.radioButton_3)
+        self.pushButton = QtWidgets.QPushButton(self.widget)
+        self.pushButton.setObjectName("pushButton")
+        self.verticalLayout.addWidget(self.pushButton)
+        self.widget1 = QtWidgets.QWidget(self.centralwidget)
+        self.widget1.setGeometry(QtCore.QRect(190, 21, 311, 70))
+        self.widget1.setObjectName("widget1")
+        self.gridLayout = QtWidgets.QGridLayout(self.widget1)
+        self.gridLayout.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout.setObjectName("gridLayout")
+        self.label = QtWidgets.QLabel(self.widget1)
+        self.label.setObjectName("label")
+        self.gridLayout.addWidget(self.label, 0, 0, 1, 1)
+        self.label_2 = QtWidgets.QLabel(self.widget1)
+        self.label_2.setObjectName("label_2")
+        self.gridLayout.addWidget(self.label_2, 0, 2, 1, 1)
+        self.lineEdit = QtWidgets.QLineEdit(self.widget1)
+        self.lineEdit.setObjectName("lineEdit")
+        self.gridLayout.addWidget(self.lineEdit, 1, 0, 1, 2)
+        self.lineEdit_2 = QtWidgets.QLineEdit(self.widget1)
+        self.lineEdit_2.setObjectName("lineEdit_2")
+        self.gridLayout.addWidget(self.lineEdit_2, 1, 2, 1, 1)
+        self.pushButton_2 = QtWidgets.QPushButton(self.widget1)
+        self.pushButton_2.setObjectName("pushButton_2")
+        self.gridLayout.addWidget(self.pushButton_2, 2, 1, 1, 1)
+        self.comboBox = QtWidgets.QComboBox(self.centralwidget)
+        self.comboBox.setGeometry(QtCore.QRect(670, 40, 69, 20))
+        self.comboBox.setObjectName("comboBox")
+        self.widget2 = QtWidgets.QWidget(self.centralwidget)
+        self.widget2.setGeometry(QtCore.QRect(20, 160, 711, 341))
+        self.widget2.setObjectName("widget2")
+        self.gridLayout_2 = QtWidgets.QGridLayout(self.widget2)
+        self.gridLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_2.setObjectName("gridLayout_2")
+        self.label_3 = QtWidgets.QLabel(self.widget2)
+        self.label_3.setObjectName("label_3")
+        self.gridLayout_2.addWidget(self.label_3, 0, 0, 1, 1)
+        self.label_5 = QtWidgets.QLabel(self.widget2)
+        self.label_5.setObjectName("label_5")
+        self.gridLayout_2.addWidget(self.label_5, 0, 1, 1, 1)
+        self.textEdit_3 = QtWidgets.QTextEdit(self.widget2)
+        self.textEdit_3.setObjectName("textEdit_3")
+        self.gridLayout_2.addWidget(self.textEdit_3, 1, 0, 1, 1)
+        self.textEdit_2 = QtWidgets.QTextEdit(self.widget2)
+        self.textEdit_2.setObjectName("textEdit_2")
+        self.gridLayout_2.addWidget(self.textEdit_2, 1, 1, 1, 1)
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(MainWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 828, 21))
+        self.menubar.setObjectName("menubar")
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.statusbar.setObjectName("statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.label_4.setText(_translate("MainWindow", "b"))
+        self.radioButton.setText(_translate("MainWindow", "по убыванию"))
+        self.radioButton_2.setText(_translate("MainWindow", "по возрастанию"))
+        self.radioButton_3.setText(_translate("MainWindow", "без сортировки"))
+        self.pushButton.setText(_translate("MainWindow", "отсортировать"))
+        self.label.setText(_translate("MainWindow", "                      k"))
+        self.label_2.setText(_translate("MainWindow", "                     l"))
+        self.pushButton_2.setText(_translate("MainWindow", "переразмерить"))
+        self.label_3.setText(_translate("MainWindow", "a"))
+        self.label_5.setText(_translate("MainWindow", " c"))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec_())
